@@ -45,8 +45,8 @@ page, .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #777;
-  background: #eee;
+  color: rgb(87, 85, 85);
+  background: rgb(173, 173, 173);
   /* borderradius对手机布局有影响 *//* border-radius: 2px; */
   position: relative;
   border-right: 1px dashed #ddd;
@@ -54,7 +54,7 @@ page, .container {
 }
 
 .box.blank {
-  color: #5cb85c;
+  color: #008bfc;
 }
 
 .box .rcl, .box .showSame, .box .cbg {
@@ -200,7 +200,7 @@ page, .container {
   /* border: 1px solid blue; */
   color: #777;
   /* background: rgba(0, 0, 0, 0.2); */
-  background: #fff;
+  background: rgba(255, 255, 255, 0.425);
   float: left;
   /* margin, padding, border都算在width内 */
   margin: 2px;
