@@ -6,7 +6,7 @@
     <image src='/images/tip.png' bindtap='showTip1'></image>
     <text class='tip' wx:if="{{showTip1}}">关闭动画，建议部分安卓机开启</text>
     <view class='right'>
-      <switch checked='{{optimizationChecked}}' bindchange="changeOptimization" color='#ffc107' />
+      <switch checked='{{optimizationChecked}}' bindchange="changeOptimization" color='#008bfc' />
     </view>
   </view>
   <view class='hdBar'>
@@ -15,7 +15,7 @@
     <text class='tip' wx:if="{{showTip2}}">需要填入数字的空白格子比例。比例越高，难度越大</text>
   </view>
   <view class='bd'>
-    <slider class='slider' bindchange="slider2change" activeColor="#f0ad4e" value='{{setDegree}}' show-value/>
+    <slider class='slider' bindchange="slider2change" activeColor="#008bfc" blockColor='#008bfc' value='{{setDegree}}' show-value/>
   </view>
   <view class='table'>
     <view class='thead'>

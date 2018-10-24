@@ -13,5 +13,30 @@
     "navigationBarBackgroundColor": "#008bfc",
     "backgroundTextStyle":"dark",
     "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#dbdbdb",
+    "selectedColor": "#008bfc",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "数独"
+      },
+      {
+        "pagePath": "pages/record/index",
+        "text": "统计"
+      },
+      {
+        "pagePath": "pages/setting/index",
+        "text": "设置"
+      }
+      ,
+      {
+        "pagePath": "pages/about/index",
+        "text": "关于"
+      }
+    ]
   }
 }

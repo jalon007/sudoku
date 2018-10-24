@@ -124,7 +124,7 @@ Page({
     // console.log(deviceInfo)
     this.setData({
       deviceInfo: deviceInfo,
-      boxSize: (deviceInfo.windowWidth) / 9,
+      boxSize: (deviceInfo.windowWidth-19) / 9,
       sideSize: (deviceInfo.windowHeight - deviceInfo.windowWidth) / 2,
     })
     this.initArray('init')
@@ -386,7 +386,7 @@ Page({
     this.setData({
       toolTip: {
         type: 'pause',
-        content: '用时' + tooltip.content + ', 已暂停'
+        content: '用时' + tooltip.content + '  已暂停'
       }
     })
     this.clearStyle()

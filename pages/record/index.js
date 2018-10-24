@@ -253,7 +253,7 @@ Page({
       // (item.useTime - min) / avgValue * avgHeight)
       // [2, 100] 分7份每份14，取30的位置 (30 - 2) / 14 * 每份的高度
       ctx.arc(origin.x + degreeParse * avgWidth + (degreeParse >= 1 ? randomX : 0), devideY === 1 ? (padding.top + (origin.y - padding.top) * .3) : (origin.y - 10 - ((item.useTime - min) / avgValue * avgHeight)), arcRadius, 0, 2 * Math.PI)
-      ctx.setFillStyle('#ffc107')
+      ctx.setFillStyle('#008bfc')
       ctx.fill()
       ctx.closePath()
 

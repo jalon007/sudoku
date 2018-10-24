@@ -62,25 +62,22 @@
       </view>
     </view>
 
-    <view class='top baseBgColor' style='height: {{sideSize - 5}}px;'>
-      <view class="{{drawerToggle ? 'menu menuToLeft' : 'menu'}}" bindtap='menuAnimate' animation="{{menuAnimation}}">
+    <view class='top baseBgColor' style='height: {{sideSize - 15}}px;'>
+      <!-- <view class="{{drawerToggle ? 'menu menuToLeft' : 'menu'}}" bindtap='menuAnimate' animation="{{menuAnimation}}">
         <text animation="{{menuAnimationTop}}"></text>
         <text animation="{{menuAnimationMiddle}}"></text>
         <text animation="{{menuAnimationBottom}}"></text>
-      </view>
+      </view> -->
       <view class='{{toolTip.type==="timing" ? "toolTip timing" : "toolTip"}}'>{{toolTip.content}}</view>
        <view class='pause' bindtap='pause' wx:if="{{toolTip.type==='timing'}}">
-        <text></text>
-        <text></text>
+       <image src='/images/stop.png'/>
       </view> 
        <view class='carry-on' bindtap='carryon' wx:if="{{toolTip.type==='pause'}}">
-      </view> 
+       <image src='/images/start.png'/></view> 
       <view class='option' bindtap='showOption'>
         <!-- <image src="/images/option.png"></image> -->
         <image src='/images/ic_lightbulb_outline_white_24dp_2x.png'></image>
       </view>
-
-      <view class="title">sudoLite--轻巧数独</view>
 
       <!-- end top -->
     </view>

@@ -45,12 +45,14 @@ page, .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(87, 85, 85);
-  background: rgb(173, 173, 173);
+  color: rgb(71, 71, 71);
+  background: #d1d2cd;
   /* borderradius对手机布局有影响 *//* border-radius: 2px; */
   position: relative;
-  border-right: 1px dashed #ddd;
-  border-bottom: 1px dashed #ddd;
+  border-right: 1.5px dashed #f8f8f8;
+  border-bottom: 1.5px dashed #f8f8f8;
+  border-radius:7px;
+  font-weight: bold;
 }
 
 .box.blank {
@@ -97,7 +99,7 @@ page, .container {
 }
 
 .row:nth-child(3n) {
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2.5px solid rgb(255, 255, 255);
 }
 
 .row:last-child {
@@ -109,7 +111,7 @@ page, .container {
 }
 
 .row .box:nth-child(3n) {
-  border-right: 2px solid #ddd;
+  border-right: 2.5px solid rgb(255, 255, 255);
 }
 
 .row .box:last-child {
@@ -198,9 +200,9 @@ page, .container {
   height: 30px;
   line-height: 30px;
   /* border: 1px solid blue; */
-  color: #777;
+  color: rgb(95, 93, 93);
   /* background: rgba(0, 0, 0, 0.2); */
-  background: rgba(255, 255, 255, 0.425);
+  background: rgb(84, 174, 243);
   float: left;
   /* margin, padding, border都算在width内 */
   margin: 2px;
@@ -215,7 +217,7 @@ page, .container {
   position: absolute;
   left: 10px;
   bottom: 10px;
-  font-size: 15px;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -231,14 +233,9 @@ page, .container {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
+  width:40px;
+height:40px;
 
-.pause text {
-  width: 4px;
-  height: 16px;
-  background: #fff;
-  display: block;
-  margin: 2px;
 }
 
 .pauseShow {
@@ -264,18 +261,16 @@ page, .container {
 }
 
 .carry-on {
-  position: absolute;
-  /* 定位在width, 为0，所以减去border的一半即可 */
-  left: calc(50% - 4px);
+    position: absolute;
+  left: calc(50% - 2px - 4px - 2px);
   bottom: 10px;
-  width: 0;
-  height: 0;
-  border-width: 8px;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  border-left-color: #fff;
-  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width:40px;
+height:40px;
+
 }
 
 .option {
@@ -484,4 +479,10 @@ page, .container {
 
 .reGenerate {
   height: 100%;
+}
+image{
+  width: 60px;
+  height: 60px;
+  max-width: 100%;
+  max-height: 100%;
 }
