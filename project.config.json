@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.3.0",
-	"appid": "wxf61510acab4fe47e",
-	"projectname": "shudu",
+	"appid": "wxf9f910c8e24ecdd3",
+	"projectname": "sudoku",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

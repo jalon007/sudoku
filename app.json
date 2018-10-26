@@ -32,11 +32,6 @@
         "pagePath": "pages/setting/index",
         "text": "设置"
       }
-      ,
-      {
-        "pagePath": "pages/about/index",
-        "text": "关于"
-      }
     ]
   }
 }

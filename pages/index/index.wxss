@@ -136,8 +136,8 @@ page, .container {
   top: calc(50% - 85px);
   left: calc(50% - 110px);
   z-index: 3;
-  background: #fff;
-  border-radius: 2px;
+  background: #50adfaef;
+  border-radius: 10px;
   box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.3);
   transform: scale(0);
 }
@@ -227,14 +227,14 @@ page, .container {
 
 .pause {
   position: absolute;
-  left: calc(50% - 2px - 4px - 2px);
+  left: calc(50% - 30px);
   bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width:40px;
-height:40px;
+  width:60px;
+height:60px;
 
 }
 
@@ -262,14 +262,14 @@ height:40px;
 
 .carry-on {
     position: absolute;
-  left: calc(50% - 2px - 4px - 2px);
+  left: calc(50% - 30px);
   bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width:40px;
-height:40px;
+  width:60px;
+height:60px;
 
 }
 
@@ -280,8 +280,8 @@ height:40px;
 }
 
 .option image {
-  width: 27px;
-  height: 27px;
+  width: 40px;
+  height: 40px;
 }
 
 .menu {
