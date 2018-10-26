@@ -58,7 +58,7 @@
       </view>
       <view wx:if="{{init}}" class="btnGroup">
         <button class="bgGreen" disabled="{{btnDisabled}}" catchtap="handleGenerateSudoku">重新生成</button>
-        <button class="{{shade ? 'bgOrange' : 'bgBlue'}}" catchtap="toggleShade">{{shade ? '查看结果' : '随机遮挡'}}</button>
+        <button class="{{shade ? 'bgOrange' : 'bgBlue'}}" catchtap="toggleShade">{{shade ? '查看结果' : '重新遮挡'}}</button>
       </view>
     </view>
 

@@ -131,12 +131,12 @@ page, .container {
 
 .optionBox {
   position: absolute;
-  width: 220px;
+  width: 200px;
   height: 170px;
   top: calc(50% - 85px);
-  left: calc(50% - 110px);
+  left: calc(50% - 100px);
   z-index: 3;
-  background: #50adfaef;
+  background: #d8ebfa;
   border-radius: 10px;
   box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.3);
   transform: scale(0);
@@ -144,7 +144,7 @@ page, .container {
 
 .optionBox .hd {
   height: 30px;
-  line-height: 30px;
+  /* line-height: 30px; */
   /* border-bottom: 1px solid #eee; */
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
@@ -177,7 +177,7 @@ page, .container {
   color: #fff;
   width: 100px;
   height: 40px;
-  border-radius: 2px;
+  border-radius: 6px;
   font-size: 14px;
   line-height: 40px;
   padding: 0;
@@ -472,7 +472,7 @@ height:60px;
   margin: 7px;
   text-align: center;
   padding: 0;
-  border-radius: 2px;
+  border-radius: 5px;
   box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
   color: #fff;
 }

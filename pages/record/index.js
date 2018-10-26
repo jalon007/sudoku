@@ -237,9 +237,9 @@ Page({
     ctx.restore()
 
     // 绘制数据点
-    let arcRadius = 1
+    let arcRadius = 2
     if (data.length < 17) {
-      arcRadius = 2
+      arcRadius = 4
     }
     // console.log(data)
     data.map((item, idx) => {

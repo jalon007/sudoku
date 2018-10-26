@@ -1046,7 +1046,7 @@ Page({
     ctx.fillText('完成时间： ' + parseTime(new Date().getTime()), padding * 2, padding + lineHeight * 4 - lineHeight * .5)
     ctx.save()
     ctx.beginPath()
-    ctx.setStrokeStyle('#ffc107')
+    ctx.setStrokeStyle('#008bfc')
     ctx.setLineWidth(2 * 2)
     // 6为字体大小的一半
     ctx.moveTo(padding, padding + lineHeight * 1 - lineHeight * .5 - 6)
