@@ -62,7 +62,7 @@
       </view>
     </view>
 
-    <view class='top baseBgColor' style='height: {{sideSize - 15}}px;'>
+    <view class='top baseBgColor' style='height: 90px;'>
       <!-- <view class="{{drawerToggle ? 'menu menuToLeft' : 'menu'}}" bindtap='menuAnimate' animation="{{menuAnimation}}">
         <text animation="{{menuAnimationTop}}"></text>
         <text animation="{{menuAnimationMiddle}}"></text>
@@ -134,7 +134,7 @@
           </view>
         </view>
 
-        <button wx:if="{{complete && !showResult}}" class='reGenerate' bindtap='handleGenerateSudoku' disabled="{{btnDisabled}}" style="line-height:{{sideSize - 5}}px">重新生成</button>
+        <button wx:if="{{complete && !showResult}}" class='reGenerate' bindtap='handleGenerateSudoku' disabled="{{btnDisabled}}">重新生成</button>
       </view>
     </view>
 

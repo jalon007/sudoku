@@ -86,7 +86,7 @@ Page({
   },
   degree: .3,
   percentDegree: '30%',
-  degreeTitle: '幼儿园水平',
+  degreeTitle: '入门级',
   avatarShowTimes: 0,
 
   generateSudokuSuccess: false,
@@ -139,7 +139,7 @@ Page({
       optimization: app.globalData.optimization
     })
     wx.setNavigationBarTitle({
-      title: this.degreeTitle
+      title: "天天数独："+this.degreeTitle
     })
   },
 
@@ -1090,15 +1090,15 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function (e) {
-    let title, img = ''
+    let title, img = '/images/logo.png'
     let range = app.adapterDegree(this.degree, 'range')[1] / 10 - 1
     let share = app.globalData.share
     if (e.from === 'button') {
       img = this.canvasResult ? this.canvasResult : ''
-      title = (share && share.range[range]) || '我在sudoLite完成了一项数独挑战，成绩如下：'
+      title = (share && share.range[range]) || '我完成了天天数独挑战，成绩如下：'
       // console.log(img)
     } else {
-      title = (share && share.index) || '生命因创造而有趣'
+      title = (share && share.index) || '数独天天练-休闲、益智、练脑'
     }
     return {
       title: title,
