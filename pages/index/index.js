@@ -24,7 +24,7 @@ Page({
 
     // 初次渲染完成前时不显示按钮
     init: false,
-
+    showModal: true,
     // panel位置
     panelPosition: {
       dx: -102,
@@ -1129,4 +1129,9 @@ Page({
   // onShow: function(){
   //   console.log(getCurrentPages())
   // }
+   iknow: function () {
+    this.setData({
+      showModal: false
+    })
+  }
 })
